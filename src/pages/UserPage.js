@@ -23,8 +23,11 @@ export default function UserPage() {
     <Body sidebar>
       {user == undefined ?
         <Spinner animation="border" />
-        
-        
+      :
+        <>
+          {}
+        </>
+    }  
     </Body>
   )
 }
